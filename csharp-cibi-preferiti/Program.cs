@@ -13,7 +13,7 @@ Console.WriteLine("Classifica cibi preferiti:");
 //La vostra classifica (dunque stampare l’intero array in ordine indicando la posizione in classifica)
 for (int i = 0; i < food.Length; i++)
 {
-    Console.WriteLine($"{i+1}) + {food[i]}");
+    Console.WriteLine($"{i+1}) {food[i]}");
 }
 
 Console.WriteLine();
