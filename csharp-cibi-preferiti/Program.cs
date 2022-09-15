@@ -26,7 +26,7 @@ Console.WriteLine();
 Console.WriteLine("Classifica cibi preferiti:");
 for (int i = 0; i < food.Length; i++)
 {
-    Console.WriteLine(food[i] +") " + food[i]);
+    Console.WriteLine(i+") " + food[i]);
 }
 
 Console.WriteLine();
